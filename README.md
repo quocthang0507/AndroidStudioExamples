@@ -8,23 +8,27 @@
 
 1. HelloWorld project
 
-A simple app displays "Hello World" to verify that Android Studio is correctly installed, and to learn the basics of developing with Android Studio.
+A simple app displayed "Hello World" to verify that Android Studio is correctly installed, and to learn the basics of developing with Android Studio.
 
 2. HelloToast project
 
-The HelloToast consist of two `Button` elements and one `TextView`. When the user taps the first `Button`, it displays a short message (a `Toast`) on the screen. Tapping the second `Button` increases a "click" counter displayed in the `TextView`, which starts at zero.
+The HelloToast consisted of two `Button` elements and one `TextView`. When the user taps the first `Button`, it displays a short message (a `Toast`) on the screen. Tapping the second `Button` increases a "click" counter displayed in the `TextView`, which starts at zero.
 
 This app changed default launcher icon.
 
 3. MyApplication project
 
-MyApplication is based on `Basic Activity` template. The `Basic Activity` template has more features and incorporates recommended app features, such as the options menu that appears in the app bar on Android-powered devices.
+MyApplication was based on `Basic Activity` template. The `Basic Activity` template has more features and incorporates recommended app features, such as the options menu that appears in the app bar on Android-powered devices.
 
 ### Lesson 2: Activities and intents
 
 4. TwoActivities project
 
-TwoActivities contains two `Activity` implementations. You can send data from the main `Activity` to the second `Activity` and return data back to the main `Activity`.
+TwoActivities contained two `Activity` implementations. You can send data from the main `Activity` to the second `Activity` and return data back to the main `Activity`.
+
+5. TwoActivities (lifecycle) project
+
+This project modified the existing TwoActivities project and added implementations of the `Activity` lifecycle callback methods to print messages to **logcat** when those methods are invoked.
 
 ### Lesson 3: Testing, debugging, and using support libraries
 
