@@ -1,4 +1,4 @@
-package com.example.twoactivities;
+package com.example.twoactivitieswithlifecycle;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,7 +14,7 @@ public class SecondActivity extends AppCompatActivity {
     private EditText mReply;
     private static final String LOG_TAG = SecondActivity.class.getSimpleName();
 
-    public static final String EXTRA_REPLY = "com.example.twoactivities.extra.REPLY";
+    public static final String EXTRA_REPLY = "com.example.twoactivitieswithlifecycle.extra.REPLY";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

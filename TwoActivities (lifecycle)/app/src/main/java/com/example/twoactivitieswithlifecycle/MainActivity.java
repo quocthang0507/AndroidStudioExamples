@@ -1,4 +1,4 @@
-package com.example.twoactivities;
+package com.example.twoactivitieswithlifecycle;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView mReplyHeadTextView;
     private TextView mReplyTextView;
 
-    public static final String EXTRA_MESSAGE = "com.example.android.twoactivities.extra.MESSAGE";
+    public static final String EXTRA_MESSAGE = "com.example.android.twoactivitieswithlifecycle.extra.MESSAGE";
     public static final int TEXT_REQUEST = 1;
 
     @Override
