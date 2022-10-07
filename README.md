@@ -16,17 +16,21 @@ The HelloToast consisted of two `Button` elements and one `TextView`. When the u
 
 This app changed default launcher icon.
 
-3. MyApplication project
+3. HelloConstraint project
+
+This project is based on HelloToast project.
+
+4. MyApplication project
 
 MyApplication was based on `Basic Activity` template. The `Basic Activity` template has more features and incorporates recommended app features, such as the options menu that appears in the app bar on Android-powered devices.
 
 ### Lesson 2: Activities and intents
 
-4. TwoActivities project
+5. TwoActivities project
 
 TwoActivities contained two `Activity` implementations. You can send data from the main `Activity` to the second `Activity` and return data back to the main `Activity`.
 
-5. TwoActivities (lifecycle) project
+6. TwoActivities (lifecycle) project
 
 This project modified the existing TwoActivities project and added implementations of the `Activity` lifecycle callback methods to print messages to **logcat** when those methods are invoked.
 
