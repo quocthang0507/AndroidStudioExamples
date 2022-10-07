@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:backgroundTint="@color/pink"
+        android:backgroundTint="@color/gray"
         android:onClick="reset"
         android:text="@string/button_label_zero"
         android:textColor="@android:color/white"
