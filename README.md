@@ -18,19 +18,23 @@ This app changed default launcher icon.
 
 3. HelloConstraint project
 
-This project is based on HelloToast project.
+This project was based on HelloToast project.
 
 4. MyApplication project
 
 MyApplication was based on `Basic Activity` template. The `Basic Activity` template has more features and incorporates recommended app features, such as the options menu that appears in the app bar on Android-powered devices.
 
+5. ScrollingText project
+
+The Scrolling Text app demonstrated the `ScrollView` UI component. `ScrollView` is a `ViewGroup` that in this app contained two TextViews. A scroll bar appeared in the right margin.
+
 ### Lesson 2: Activities and intents
 
-5. TwoActivities project
+6. TwoActivities project
 
 TwoActivities contained two `Activity` implementations. You can send data from the main `Activity` to the second `Activity` and return data back to the main `Activity`.
 
-6. TwoActivities (lifecycle) project
+7. TwoActivities (lifecycle) project
 
 This project modified the existing TwoActivities project and added implementations of the `Activity` lifecycle callback methods to print messages to **logcat** when those methods are invoked.
 
