@@ -30,4 +30,11 @@ public class MainActivity extends AppCompatActivity {
             mShowCount.setText(Integer.toString(mCount));
         }
     }
+
+    public void reset(View view) {
+        mCount = 0;
+        if (mShowCount != null) {
+            mShowCount.setText(Integer.toString(mCount));
+        }
+    }
 }
