@@ -38,6 +38,10 @@ TwoActivities contained two `Activity` implementations. You can send data from t
 
 This project modified the existing TwoActivities project and added implementations of the `Activity` lifecycle callback methods to print messages to **logcat** when those methods are invoked.
 
+8. ImplicitIntents project
+
+An app calls implicit intents.
+
 ### Lesson 3: Testing, debugging, and using support libraries
 
 ## Unit 2: User experience
