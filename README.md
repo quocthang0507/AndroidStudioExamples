@@ -40,7 +40,11 @@ This project modified the existing TwoActivities project and added implementatio
 
 8. ImplicitIntents project
 
-An app calls implicit intents.
+An app demonstrates the use of implicit intents for starting activities. It contains three buttons for sending implicit intents.
+
+9. ImplicitIntentsReceiver project
+
+The ImplicitIntentsReceiver app registers inself for implicit intents that come from browsable links (URLs) with the scheme http/https and host developer.android.com.
 
 ### Lesson 3: Testing, debugging, and using support libraries
 
