@@ -1,8 +1,10 @@
 package com.example.implicitintents;
 
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
@@ -12,6 +14,7 @@ import androidx.core.app.ShareCompat;
 
 public class MainActivity extends AppCompatActivity {
     private EditText mWebsiteEditText, mLocationEditText, mShareTextEditText;
+    private static final int REQUEST_IMAGE_CAPTURE = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,5 +68,14 @@ public class MainActivity extends AppCompatActivity {
                 .setChooserTitle(R.string.share_text_with)
                 .setText(txt)
                 .startChooser();
+    }
+
+    public void takePicture(View view) {
+        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        try {
+            startActivityForResult(intent, REQUEST_IMAGE_CAPTURE);
+        } catch (ActivityNotFoundException e) {
+
+        }
     }
 }
